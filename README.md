@@ -1,17 +1,25 @@
-# @unction/tempLate
+# @unction/domEvents
+
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed -> mixed
+> DOMEventsConfigurationType -> DOMEventNameType -> DOMStreamType -> DOMEventStreamType
 
-An example function.
+Takes a configuration, an event name, and a DOM source and returns an observable of that event type
 
 ``` javascript
-tempLate(1) // 1
+domEvents({})("click")(DOM)
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+returns
+
+``` javascript
+--click--click--click-->
+```
+
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/domEvents.svg?maxAge=2592000&style=flat-square
+
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/domEvents.svg?maxAge=2592000&style=flat-square

@@ -1,13 +1,13 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import tempLate from "./"
+import domEvents from "./"
 
-test(({same, end}) => {
-  same(
-    tempLate(true),
-    false
-  )
-
-  end()
-})
+// test(({same, end}) => {
+//   same(
+//     domEvents({})("click")(DOM),
+//     null
+//   )
+//
+//   end()
+// })

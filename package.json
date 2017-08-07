@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@unction/domevents",
+  "version": "1.0.1",
+  "description": "Takes a configuration, an event name, and a DOM source and returns an observable of that event type",
   "keywords": [
     "unction",
     "functional"
@@ -45,6 +45,6 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "xstream": "10.8.0"
   }
 }
