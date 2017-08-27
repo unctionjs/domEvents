@@ -3,11 +3,17 @@ import {test} from "tap"
 
 import domEvents from "./source"
 
-// test(({same, end}) => {
-//   same(
-//     domEvents({})("click")(DOM),
-//     null
-//   )
-//
-//   end()
-// })
+const dom = {
+  events (event) {
+    return [event]
+  },
+}
+
+test(({same, end}) => {
+  same(
+    domEvents({})("click")(dom),
+    ["click"]
+  )
+
+  end()
+})
