@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> DOMEventsConfigurationType -> DOMEventNameType -> DOMStreamType -> DOMEventStreamType
+> DOMEventsConfigurationType => DOMEventNameType => DOMStreamType => DOMEventStreamType
 
 Takes a configuration, an event name, and a DOM source and returns an observable of that event type
 
@@ -16,7 +16,7 @@ domEvents({})("click")(DOM)
 returns
 
 ``` javascript
---click--click--click-->
+--click--click--click-=>
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/domEvents.svg?maxAge=2592000&style=flat-square
