@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, flowtype/require-variable-type */
 import {test} from "tap"
 
 import domEvents from "./index"
