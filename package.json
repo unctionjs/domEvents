@@ -1,6 +1,6 @@
 {
   "name": "@unction/domevents",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Takes a configuration, an event name, and a DOM source and returns an observable of that event type",
   "keywords": [
     "unction",
@@ -50,8 +50,7 @@
     "nyc": "13.3.0",
     "tap": "12.6.1"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "nyc": {
     "require": [
       "@babel/register"
