@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-variable-type */
 import {test} from "tap";
 
-import domEvents from "./index";
+import domEvents from "./";
 
 const dom = {
   events (event) {
