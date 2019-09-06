@@ -1,5 +1,5 @@
 /* eslint-disable flowtype/require-variable-type */
-import domEvents from "./index.ts";
+import domEvents from "./index";
 
 const dom = {
   events (event) {
