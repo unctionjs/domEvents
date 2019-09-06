@@ -7,6 +7,6 @@ const dom = {
   },
 };
 
-test(() => {
+test("works", () => {
   expect(domEvents({})("click")(dom)).toEqual(["click"]);
 });
