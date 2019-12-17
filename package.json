@@ -1,6 +1,6 @@
 {
   "name": "@unction/domevents",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "description": "Takes a configuration, an event name, and a DOM source and returns an observable of that event type",
   "keywords": [
     "unction",
@@ -52,8 +52,7 @@
     "jest-extended": "0.11.2",
     "typescript": "3.5.1"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "files": [
     "index.ts",
     "main.js",
